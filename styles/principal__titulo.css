@@ -1,0 +1,15 @@
+.principal__titulo{
+    width: 90%;
+}
+.titulo__nome{
+    font-size: 72px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.titulo__nome-destaque{
+    color: var(--cor-cinza);
+}
+.titulo__cargo{
+    font-size: 28px;
+    font-weight: 300;
+}

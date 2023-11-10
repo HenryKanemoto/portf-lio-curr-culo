@@ -1,0 +1,32 @@
+.idiomas{
+    margin-top: 10em;
+    width: 90%;
+}
+.idiomas__titulo{
+    color: var(--cor-cinzaescuro);
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 4px solid var(--cor-cinzaescuro);
+    padding-bottom: 0.25em;
+    margin-right: 5em;
+    margin-bottom: 1em;
+}
+
+.idiomas__lista{
+    display: flex;
+    gap: 10em;
+}
+
+.idiomas__item-titulo{
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.idiomas__item-descricao{
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.idiomas__item-titulo-destaque{
+    color: var(--cor-cinza);
+}

@@ -1,0 +1,22 @@
+@import url("reset.css");
+@import url("styles/info.css");
+@import url("styles/principal.css"); 
+@import url("styles/principal__titulo.css");
+@import url("styles/principal__lista.css");
+@import url("styles/idiomas.css");
+
+:root{
+    --cor-cinzaescuro: #352F44;
+    --cor-cinza: #5C5470;
+    --cor-cinzaclaro: #B9B4C7;
+    --cor-branco: #FAF0E6;
+}
+
+body{
+    background-color: var(--cor-branco);
+    display: flex;
+    gap: 10em;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Inter" 
+}
