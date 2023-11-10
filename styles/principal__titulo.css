@@ -13,3 +13,12 @@
     font-size: 28px;
     font-weight: 300;
 }
+
+@media all and (max-width: 600px) {
+    .titulo__nome{
+        font-size: 36px;
+    }
+    .titulo__cargo{
+        font-size: 16px;
+    }
+}

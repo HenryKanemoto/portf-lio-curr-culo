@@ -24,12 +24,7 @@
     padding-bottom: 0.5em;
 }
 
-.nome__texto{
-    font-size: 36px;
-    font-weight: 700;
-}
-
-.cargo__texto{
+.info__sub-titulo{
     font-size: 36px;
     font-weight: 700;
 }
@@ -69,3 +64,39 @@
     font-weight: 300;
 }
 
+@media all and (max-width:600px){
+    .info{
+        margin-left: 2em;
+        padding: 3em;
+        font-size: 14px;
+        width: 30%;
+        gap: 2.5em;
+    }
+    .info__titulo-texto{
+        font-weight: 300;
+        font-size: 16px;
+    }
+    .sub-info{
+        font-size: 14px;
+    }
+    .info__sub-titulo{
+        font-size: 20px;
+
+    }
+    .contato__item{
+        font-size: 10px;
+    }
+    .info__estrela{
+        width: 20%;
+    }
+    .item__caixa{
+        padding: 0;
+    }
+    .item__caixa-titulo{
+        font-size: 18px;
+    }
+    .item__caixa-texto{
+        font-size: 14px;
+        flex-wrap: wrap;
+    }
+}

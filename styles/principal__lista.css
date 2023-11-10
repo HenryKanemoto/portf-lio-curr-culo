@@ -46,3 +46,33 @@
     border: 4px solid var(--cor-cinza);
     box-shadow: 0px 16px 16px 0 var(--cor-cinzaclaro); 
 }
+
+
+@media all and (max-width:600px){
+    .principal-lista{
+        padding: 4em 0 3em 0;
+    }
+    .principal-lista__lista{
+        border-left:none;
+        gap: 6em;
+        list-style-type: none;
+    }
+    .principal-lista__titulo{
+        font-size: 26px;
+        margin-right: 0;
+        border-bottom: 2px solid;
+    }
+    .principal-lista__item{
+        border: 1px solid var(--cor-cinzaclaro);
+    }
+    .principal-lista__item-titulo{
+        font-size: 20px;
+    }
+    .principal-lista__item-dado{
+        font-size: 16px;
+        gap: 1em;
+    }
+    .item-dado__data{
+        padding-right: 2em;
+    }
+}
